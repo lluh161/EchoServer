@@ -4,7 +4,7 @@
           内部自动做：分割大块（满足小需求） 合并空闲块（减少内存碎片）*/
 
 #include <iostream>
-#include <cstdlib>
+#include <cstdlib>//内存操作
 using namespace std;
 
 //内存块结构体，每一块内存的状态
