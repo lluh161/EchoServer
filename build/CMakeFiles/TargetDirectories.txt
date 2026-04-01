@@ -4,11 +4,9 @@
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/CMakeFiles/rebuild_cache.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++ STL容器/CMakeFiles/vector_demo.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++ STL容器/CMakeFiles/iterator_demo.dir
-/Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++ STL容器/CMakeFiles/edit_cache.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++ STL容器/CMakeFiles/rebuild_cache.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++现代特性/CMakeFiles/lambda_demo.dir
-/Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++现代特性/CMakeFiles/move_demo.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++现代特性/CMakeFiles/edit_cache.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++现代特性/CMakeFiles/rebuild_cache.dir
@@ -20,3 +18,18 @@
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++虚函数与多态/CMakeFiles/virtual_demo.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++虚函数与多态/CMakeFiles/edit_cache.dir
 /Users/hh/Desktop/Hejunlu_fProjects/build/C++相关内容/c++虚函数与多态/CMakeFiles/rebuild_cache.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/CMakeFiles/edit_cache.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/CMakeFiles/rebuild_cache.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/进程与线程/CMakeFiles/MultiThread.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/进程与线程/CMakeFiles/Distinguish.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/进程与线程/CMakeFiles/StateSwitch.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/进程与线程/CMakeFiles/edit_cache.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/进程与线程/CMakeFiles/rebuild_cache.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/内存管理/CMakeFiles/StackHeapDiff.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/内存管理/CMakeFiles/VirtualMem.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/内存管理/CMakeFiles/StackOverflow.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/内存管理/CMakeFiles/edit_cache.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/内存管理/CMakeFiles/rebuild_cache.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/死锁/CMakeFiles/DeadLock.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/死锁/CMakeFiles/edit_cache.dir
+/Users/hh/Desktop/Hejunlu_fProjects/build/操作系统相关内容/死锁/CMakeFiles/rebuild_cache.dir

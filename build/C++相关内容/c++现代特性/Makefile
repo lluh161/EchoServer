@@ -131,20 +131,6 @@ lambda_demo/fast:
 .PHONY : lambda_demo/fast
 
 # Convenience name for target.
-C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/rule:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/rule
-.PHONY : C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/rule
-
-# Convenience name for target.
-auto_demo: C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/rule
-.PHONY : auto_demo
-
-# fast build rule for target.
-auto_demo/fast:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/build.make C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/build
-.PHONY : auto_demo/fast
-
-# Convenience name for target.
 C++相关内容/c++现代特性/CMakeFiles/move_demo.dir/rule:
 	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 C++相关内容/c++现代特性/CMakeFiles/move_demo.dir/rule
 .PHONY : C++相关内容/c++现代特性/CMakeFiles/move_demo.dir/rule
@@ -182,30 +168,6 @@ move_demo/fast:
 	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f C++相关内容/c++现代特性/CMakeFiles/lambda_demo.dir/build.make C++相关内容/c++现代特性/CMakeFiles/lambda_demo.dir/匿名函数+完美转发.cpp.s
 .PHONY : 匿名函数+完美转发.cpp.s
 
-推导类型+范围for遍历.o: 推导类型+范围for遍历.cpp.o
-.PHONY : 推导类型+范围for遍历.o
-
-# target to build an object file
-推导类型+范围for遍历.cpp.o:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/build.make C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/推导类型+范围for遍历.cpp.o
-.PHONY : 推导类型+范围for遍历.cpp.o
-
-推导类型+范围for遍历.i: 推导类型+范围for遍历.cpp.i
-.PHONY : 推导类型+范围for遍历.i
-
-# target to preprocess a source file
-推导类型+范围for遍历.cpp.i:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/build.make C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/推导类型+范围for遍历.cpp.i
-.PHONY : 推导类型+范围for遍历.cpp.i
-
-推导类型+范围for遍历.s: 推导类型+范围for遍历.cpp.s
-.PHONY : 推导类型+范围for遍历.s
-
-# target to generate assembly for a file
-推导类型+范围for遍历.cpp.s:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/build.make C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/推导类型+范围for遍历.cpp.s
-.PHONY : 推导类型+范围for遍历.cpp.s
-
 移动语意.o: 移动语意.cpp.o
 .PHONY : 移动语意.o
 
@@ -238,15 +200,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... auto_demo"
 	@echo "... lambda_demo"
 	@echo "... move_demo"
 	@echo "... 匿名函数+完美转发.o"
 	@echo "... 匿名函数+完美转发.i"
 	@echo "... 匿名函数+完美转发.s"
-	@echo "... 推导类型+范围for遍历.o"
-	@echo "... 推导类型+范围for遍历.i"
-	@echo "... 推导类型+范围for遍历.s"
 	@echo "... 移动语意.o"
 	@echo "... 移动语意.i"
 	@echo "... 移动语意.s"

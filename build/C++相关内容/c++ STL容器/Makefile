@@ -144,44 +144,6 @@ iterator_demo/fast:
 	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f "C++相关内容/c++ STL容器/CMakeFiles/iterator_demo.dir/build.make" "C++相关内容/c++ STL容器/CMakeFiles/iterator_demo.dir/build"
 .PHONY : iterator_demo/fast
 
-# Convenience name for target.
-C++相关内容/c++\ STL容器/CMakeFiles/map_demo.dir/rule:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/rule"
-.PHONY : C++相关内容/c++\ STL容器/CMakeFiles/map_demo.dir/rule
-
-# Convenience name for target.
-map_demo: C++相关内容/c++\ STL容器/CMakeFiles/map_demo.dir/rule
-.PHONY : map_demo
-
-# fast build rule for target.
-map_demo/fast:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/build.make" "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/build"
-.PHONY : map_demo/fast
-
-map与unordered_map.o: map与unordered_map.cpp.o
-.PHONY : map与unordered_map.o
-
-# target to build an object file
-map与unordered_map.cpp.o:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/build.make" "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/map与unordered_map.cpp.o"
-.PHONY : map与unordered_map.cpp.o
-
-map与unordered_map.i: map与unordered_map.cpp.i
-.PHONY : map与unordered_map.i
-
-# target to preprocess a source file
-map与unordered_map.cpp.i:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/build.make" "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/map与unordered_map.cpp.i"
-.PHONY : map与unordered_map.cpp.i
-
-map与unordered_map.s: map与unordered_map.cpp.s
-.PHONY : map与unordered_map.s
-
-# target to generate assembly for a file
-map与unordered_map.cpp.s:
-	cd /Users/hh/Desktop/Hejunlu_fProjects/build && $(MAKE) $(MAKESILENT) -f "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/build.make" "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/map与unordered_map.cpp.s"
-.PHONY : map与unordered_map.cpp.s
-
 vector扩容.o: vector扩容.cpp.o
 .PHONY : vector扩容.o
 
@@ -239,11 +201,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... iterator_demo"
-	@echo "... map_demo"
 	@echo "... vector_demo"
-	@echo "... map与unordered_map.o"
-	@echo "... map与unordered_map.i"
-	@echo "... map与unordered_map.s"
 	@echo "... vector扩容.o"
 	@echo "... vector扩容.i"
 	@echo "... vector扩容.s"

@@ -4,7 +4,7 @@
                 vector<int> v={1,2,3};
                 auto it=v.begin();//指向1
                 v.push_back(4);//可能触发扩容
-                //*it=100;//未定义行为！迭代器已失效
+                // *it=100;//未定义行为！迭代器已失效
             insert/erase部分失效
                 insert(pos,val):pos及之后的迭代器失效
                     vector<int> v={1,2,3,4};

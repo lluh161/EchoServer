@@ -143,19 +143,6 @@ iterator_demo/fast:
 .PHONY : iterator_demo/fast
 
 #=============================================================================
-# Target rules for targets named map_demo
-
-# Build rule for target.
-map_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 map_demo
-.PHONY : map_demo
-
-# fast build rule for target.
-map_demo/fast:
-	$(MAKE) $(MAKESILENT) -f "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/build.make" "C++相关内容/c++ STL容器/CMakeFiles/map_demo.dir/build"
-.PHONY : map_demo/fast
-
-#=============================================================================
 # Target rules for targets named lambda_demo
 
 # Build rule for target.
@@ -167,19 +154,6 @@ lambda_demo: cmake_check_build_system
 lambda_demo/fast:
 	$(MAKE) $(MAKESILENT) -f C++相关内容/c++现代特性/CMakeFiles/lambda_demo.dir/build.make C++相关内容/c++现代特性/CMakeFiles/lambda_demo.dir/build
 .PHONY : lambda_demo/fast
-
-#=============================================================================
-# Target rules for targets named auto_demo
-
-# Build rule for target.
-auto_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 auto_demo
-.PHONY : auto_demo
-
-# fast build rule for target.
-auto_demo/fast:
-	$(MAKE) $(MAKESILENT) -f C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/build.make C++相关内容/c++现代特性/CMakeFiles/auto_demo.dir/build
-.PHONY : auto_demo/fast
 
 #=============================================================================
 # Target rules for targets named move_demo
@@ -246,6 +220,97 @@ virtual_demo/fast:
 	$(MAKE) $(MAKESILENT) -f C++相关内容/c++虚函数与多态/CMakeFiles/virtual_demo.dir/build.make C++相关内容/c++虚函数与多态/CMakeFiles/virtual_demo.dir/build
 .PHONY : virtual_demo/fast
 
+#=============================================================================
+# Target rules for targets named MultiThread
+
+# Build rule for target.
+MultiThread: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MultiThread
+.PHONY : MultiThread
+
+# fast build rule for target.
+MultiThread/fast:
+	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/进程与线程/CMakeFiles/MultiThread.dir/build.make 操作系统相关内容/进程与线程/CMakeFiles/MultiThread.dir/build
+.PHONY : MultiThread/fast
+
+#=============================================================================
+# Target rules for targets named Distinguish
+
+# Build rule for target.
+Distinguish: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Distinguish
+.PHONY : Distinguish
+
+# fast build rule for target.
+Distinguish/fast:
+	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/进程与线程/CMakeFiles/Distinguish.dir/build.make 操作系统相关内容/进程与线程/CMakeFiles/Distinguish.dir/build
+.PHONY : Distinguish/fast
+
+#=============================================================================
+# Target rules for targets named StateSwitch
+
+# Build rule for target.
+StateSwitch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StateSwitch
+.PHONY : StateSwitch
+
+# fast build rule for target.
+StateSwitch/fast:
+	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/进程与线程/CMakeFiles/StateSwitch.dir/build.make 操作系统相关内容/进程与线程/CMakeFiles/StateSwitch.dir/build
+.PHONY : StateSwitch/fast
+
+#=============================================================================
+# Target rules for targets named StackHeapDiff
+
+# Build rule for target.
+StackHeapDiff: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StackHeapDiff
+.PHONY : StackHeapDiff
+
+# fast build rule for target.
+StackHeapDiff/fast:
+	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/内存管理/CMakeFiles/StackHeapDiff.dir/build.make 操作系统相关内容/内存管理/CMakeFiles/StackHeapDiff.dir/build
+.PHONY : StackHeapDiff/fast
+
+#=============================================================================
+# Target rules for targets named VirtualMem
+
+# Build rule for target.
+VirtualMem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VirtualMem
+.PHONY : VirtualMem
+
+# fast build rule for target.
+VirtualMem/fast:
+	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/内存管理/CMakeFiles/VirtualMem.dir/build.make 操作系统相关内容/内存管理/CMakeFiles/VirtualMem.dir/build
+.PHONY : VirtualMem/fast
+
+#=============================================================================
+# Target rules for targets named StackOverflow
+
+# Build rule for target.
+StackOverflow: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 StackOverflow
+.PHONY : StackOverflow
+
+# fast build rule for target.
+StackOverflow/fast:
+	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/内存管理/CMakeFiles/StackOverflow.dir/build.make 操作系统相关内容/内存管理/CMakeFiles/StackOverflow.dir/build
+.PHONY : StackOverflow/fast
+
+#=============================================================================
+# Target rules for targets named DeadLock
+
+# Build rule for target.
+DeadLock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeadLock
+.PHONY : DeadLock
+
+# fast build rule for target.
+DeadLock/fast:
+	$(MAKE) $(MAKESILENT) -f 操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/build.make 操作系统相关内容/死锁/CMakeFiles/DeadLock.dir/build
+.PHONY : DeadLock/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,11 +319,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... auto_demo"
+	@echo "... DeadLock"
+	@echo "... Distinguish"
+	@echo "... MultiThread"
+	@echo "... StackHeapDiff"
+	@echo "... StackOverflow"
+	@echo "... StateSwitch"
+	@echo "... VirtualMem"
 	@echo "... compare_demo"
 	@echo "... iterator_demo"
 	@echo "... lambda_demo"
-	@echo "... map_demo"
 	@echo "... move_demo"
 	@echo "... rall_demo"
 	@echo "... smart_ptr_demo"
