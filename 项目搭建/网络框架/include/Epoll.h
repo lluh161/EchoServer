@@ -4,7 +4,7 @@
 
 class Channel;
 
-class Epoll{
+class Epoll{//封装epoll系统调用，事件监听
 private:
     int epfd_;
     stf::vector<epoll_event> event_;

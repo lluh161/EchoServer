@@ -1,7 +1,7 @@
 #pragma once
 #include <functional>
 
-class Channel{
+class Channel{//封装fd+事件+回调，事件载体
 public:
     using ReadCallback=std::function<void()>;//把std::function<void()>简写成ReadCallback
 
