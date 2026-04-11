@@ -22,17 +22,20 @@ bool Socket::listen(int backlog){
     return ::listen(fd_,backlog)!=-1;//调用系统listen，返回是否成功
 }
 
-int Socket::accept(){
-    return ::accept(fd_,nullptr,nullptr);//等客户端连接，一连接就返回一个新的socket用于通信
+int Socket::accept(InetAddress& clientAddr){
+    struct sockaddr_in client_addr;
+    socklen_t client_len = sizeof(client_addr);
+    int client_fd = ::accept(fd_, (struct sockaddr*)&client_addr, &client_len);
+    return client_fd;
 }
 
-void Socket::setReuseAddr(bool on) {
-    int opt = on ? 1 : 0;
+void Socket::setReuseAddr() {
+    int opt = 1;
     setsockopt(fd_, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
 }
 
-void Socket::setReusePort(bool on) {
-    int opt = on ? 1 : 0;
+void Socket::setReusePort() {
+    int opt = 1;
     setsockopt(fd_, SOL_SOCKET, SO_REUSEPORT, &opt, sizeof(opt));
 }
 

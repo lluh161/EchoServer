@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "/Users/hh/Desktop/Hejunlu_fProjects/bin/echo_server"
-  "/Users/hh/Desktop/Hejunlu_fProjects/bin/echo_server.pdb"
   "CMakeFiles/echo_server.dir/src/Buffer.cpp.o"
   "CMakeFiles/echo_server.dir/src/Buffer.cpp.o.d"
   "CMakeFiles/echo_server.dir/src/Channel.cpp.o"
@@ -23,6 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o.d"
   "CMakeFiles/echo_server.dir/src/main.cpp.o"
   "CMakeFiles/echo_server.dir/src/main.cpp.o.d"
+  "echo_server"
+  "echo_server.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

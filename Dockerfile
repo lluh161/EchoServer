@@ -1,4 +1,4 @@
-# 基础镜像：Ubuntu 22.04（纯Linux环境，自带epoll头文件）
+# 基础镜像：Ubuntu 22.04（纯 Linux 环境，自带 epoll 头文件）
 FROM ubuntu:22.04
 
 # 避免交互安装
@@ -15,7 +15,7 @@ RUN apt update && apt install -y \
 # 工作目录
 WORKDIR /app
 
-# 复制整个项目
+# 复制整个项目到容器
 COPY . .
 
 # 编译项目
@@ -23,7 +23,7 @@ RUN mkdir -p build && cd build \
     && cmake .. \
     && make -j8
 
-# 暴露8888端口
+# 暴露 8888 端口
 EXPOSE 8888
 
 # 启动服务器

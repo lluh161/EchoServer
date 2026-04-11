@@ -6,7 +6,6 @@
 EventLoop::EventLoop()//创建Epoll实例，每个EventLoop拥有一个独立的Epoll
     :epoll_(new Epoll),looping_(false){}
 
-EventLoop::~EventLoop()=default;
 
 void EventLoop::loop(){//启动事件循环
     looping_=true;

@@ -3,6 +3,7 @@
 #include <memory>
 #include "EventLoop.h"
 #include "Socket.h"
+#include "Buffer.h"
 #include "ThreadPool.h"
 
 class Channel;

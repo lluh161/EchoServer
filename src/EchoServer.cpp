@@ -7,25 +7,14 @@
 #include <unistd.h>
 #include <thread>
 
-
-void Socket::setReuseAddr(bool on) {
-    int opt = on ? 1 : 0;
-    setsockopt(fd_, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
-}
-
-void Socket::setReusePort(bool on) {
-    int opt = on ? 1 : 0;
-    setsockopt(fd_, SOL_SOCKET, SO_REUSEPORT, &opt, sizeof(opt));
-}
-
 EchoServer::EchoServer(EventLoop* loop, const InetAddress& listenAddr)//初始化服务器
     : loop_(loop),//主Reactor
       socket_(std::make_unique<Socket>()),
       acceptChannel_(std::make_unique<Channel>(loop,socket_->fd())){
     (void)loop_;
     //设置端口复用
-    socket_->setReuseAddr(true);
-    socket_->setReusePort(true);
+    socket_->setReuseAddr();
+    socket_->setReusePort();
 
     socket_->bind(listenAddr);// 绑定IP+端口
     socket_->listen();//开始监听

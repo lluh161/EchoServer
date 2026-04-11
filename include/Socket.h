@@ -11,8 +11,8 @@ public:
     Socket& operator=(const Socket&)=delete;
 
     //设置：按要求运行
-    void setReusePort(bool on);
-    void setReuseAddr(bool on);//端口立即复用
+    void setReusePort();
+    void setReuseAddr();//端口立即复用
     void setNonBlock(bool on);//设置为非阻塞态
 
     //网络操作：收发数据

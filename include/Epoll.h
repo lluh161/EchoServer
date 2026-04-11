@@ -2,6 +2,8 @@
 #define EPOLL_H
 
 #include <vector>
+#include "Channel.h"
+
 //前置声明 Channel 类
 class Channel;
 
