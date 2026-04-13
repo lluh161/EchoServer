@@ -2,6 +2,7 @@
 #include "Channel.h"
 #include "Buffer.h"
 #include "HttpRequest.h"
+#include "Log.h"
 #include "HttpResponse.h"
 #include "InetAddress.h"
 #include <iostream>
@@ -57,7 +58,12 @@ void EchoServer::start() {
 void EchoServer::handleNewConnection() {
     //接受新连接
     int cfd = accept(socket_->fd(), NULL, NULL);
-    if (cfd < 0) return;
+    if (cfd < 0) {
+        LOGE("accept 失败");
+        return;
+    }
+
+    LOGI("新客户端连接 fd=%d", cfd);
 
     //你框架已有的非阻塞设置
     int flags = fcntl(cfd, F_GETFL, 0);
@@ -82,10 +88,13 @@ void EchoServer::handleNewConnection() {
 }
 
 void EchoServer::handleMessage(int cfd, Buffer* buf){
+    LOGD("开始处理客户端 fd=%d", cfd);
+
     //读取请求
     char buffer[4096];
     ssize_t n = read(cfd, buffer, sizeof(buffer));
     if (n <= 0) {
+        LOGW("客户端关闭连接 fd=%d", cfd);
         close(cfd);
         delete buf;
         return;
@@ -99,13 +108,18 @@ void EchoServer::handleMessage(int cfd, Buffer* buf){
     HttpResponse resp;
 
     std::string path = req.path();
+    LOGI("请求路径：%s", path.c_str());
+
     if (path == "/") path = "/index.html";
     std::string filePath = "/Users/hh/Desktop/EchoServer/www" + path;
 
     if (!resp.loadFile(filePath)) {
+        LOGW("文件不存在：%s", filePath.c_str());
         resp.setStatusCode(404);
         resp.setBody("<h1>404 Not Found</h1>");
         resp.setHeader("Content-Type", "text/html");
+    }else{
+        LOGD("成功读取文件：%s", filePath.c_str());
     }
 
     //发送响应
@@ -117,4 +131,5 @@ void EchoServer::handleMessage(int cfd, Buffer* buf){
     close(cfd);
 
     delete buf;
+    LOGD("响应完成，关闭 fd=%d", cfd);
 }

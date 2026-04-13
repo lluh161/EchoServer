@@ -1,34 +1,37 @@
-#include <iostream>
 #include "Log.h"
-#include <iostream>
-#include <chrono>
-#include <iomanip>
-#include <sstream>
-#include <fstream>
 
-std::string Log::getCurrentTime() {
-    auto now = std::chrono::system_clock::now();
-    std::time_t now_time = std::chrono::system_clock::to_time_t(now);
-    std::tm tm = *std::localtime(&now_time);
-    
-    std::stringstream ss;
-    ss << std::put_time(&tm, "%Y-%m-%d %H:%M:%S");
-    return ss.str();
-}
+static const char* levelStr[] = {
+    "DEBUG",
+    "INFO",
+    "WARN",
+    "ERROR"
+};
 
-void Log::log(const std::string& msg) {
-    std::string time = getCurrentTime();
-    std::string logMsg = "[" + time + "] " + msg;
-    
-    // 控制台输出
-    std::cout << logMsg << std::endl;
-    
-    // 可选：写入日志文件
-    std::ofstream file("server.log", std::ios::app);
-    if (file.is_open()) {
-        file << logMsg << std::endl;
-        file.close();
-    } else {
-        std::cerr << "日志文件打开失败！" << std::endl;
-    }
+void logPrint(int level, const char* file, int line, const char* fmt, ...)
+{
+    if (level < LOG_LEVEL) return;
+
+    // 时间
+    time_t now = time(NULL);
+    struct tm* t = localtime(&now);
+    char timeStr[64];
+    strftime(timeStr, sizeof(timeStr), "%Y-%m-%d %H:%M:%S", t);
+
+    // 提取文件名（不要全路径）
+    const char* filename = strrchr(file, '/');
+    if (filename) filename++;
+    else filename = file;
+
+    // 头部
+    printf("[%s] [%s] %s:%d | ", 
+           timeStr, levelStr[level], filename, line);
+
+    // 内容
+    va_list ap;
+    va_start(ap, fmt);
+    vprintf(fmt, ap);
+    va_end(ap);
+
+    printf("\n");
+    fflush(stdout);
 }
