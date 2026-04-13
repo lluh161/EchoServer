@@ -249,29 +249,53 @@ src/EventLoop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/EventLoop.cpp.s
 .PHONY : src/EventLoop.cpp.s
 
-src/Http.o: src/Http.cpp.o
-.PHONY : src/Http.o
+src/HttpRequest.o: src/HttpRequest.cpp.o
+.PHONY : src/HttpRequest.o
 
 # target to build an object file
-src/Http.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/Http.cpp.o
-.PHONY : src/Http.cpp.o
+src/HttpRequest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o
+.PHONY : src/HttpRequest.cpp.o
 
-src/Http.i: src/Http.cpp.i
-.PHONY : src/Http.i
+src/HttpRequest.i: src/HttpRequest.cpp.i
+.PHONY : src/HttpRequest.i
 
 # target to preprocess a source file
-src/Http.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/Http.cpp.i
-.PHONY : src/Http.cpp.i
+src/HttpRequest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/HttpRequest.cpp.i
+.PHONY : src/HttpRequest.cpp.i
 
-src/Http.s: src/Http.cpp.s
-.PHONY : src/Http.s
+src/HttpRequest.s: src/HttpRequest.cpp.s
+.PHONY : src/HttpRequest.s
 
 # target to generate assembly for a file
-src/Http.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/Http.cpp.s
-.PHONY : src/Http.cpp.s
+src/HttpRequest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/HttpRequest.cpp.s
+.PHONY : src/HttpRequest.cpp.s
+
+src/HttpResponse.o: src/HttpResponse.cpp.o
+.PHONY : src/HttpResponse.o
+
+# target to build an object file
+src/HttpResponse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o
+.PHONY : src/HttpResponse.cpp.o
+
+src/HttpResponse.i: src/HttpResponse.cpp.i
+.PHONY : src/HttpResponse.i
+
+# target to preprocess a source file
+src/HttpResponse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/HttpResponse.cpp.i
+.PHONY : src/HttpResponse.cpp.i
+
+src/HttpResponse.s: src/HttpResponse.cpp.s
+.PHONY : src/HttpResponse.s
+
+# target to generate assembly for a file
+src/HttpResponse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/HttpResponse.cpp.s
+.PHONY : src/HttpResponse.cpp.s
 
 src/InetAddress.o: src/InetAddress.cpp.o
 .PHONY : src/InetAddress.o
@@ -417,9 +441,12 @@ help:
 	@echo "... src/EventLoop.o"
 	@echo "... src/EventLoop.i"
 	@echo "... src/EventLoop.s"
-	@echo "... src/Http.o"
-	@echo "... src/Http.i"
-	@echo "... src/Http.s"
+	@echo "... src/HttpRequest.o"
+	@echo "... src/HttpRequest.i"
+	@echo "... src/HttpRequest.s"
+	@echo "... src/HttpResponse.o"
+	@echo "... src/HttpResponse.i"
+	@echo "... src/HttpResponse.s"
 	@echo "... src/InetAddress.o"
 	@echo "... src/InetAddress.i"
 	@echo "... src/InetAddress.s"
