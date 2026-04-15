@@ -931,6 +931,7 @@ CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
   /Users/hh/Desktop/EchoServer/include/HttpRequest.h \
   /Users/hh/Desktop/EchoServer/include/Log.h \
+  /Users/hh/Desktop/EchoServer/include/User.h \
   /Users/hh/Desktop/EchoServer/include/HttpResponse.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
@@ -951,6 +952,21 @@ CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
+  /Users/hh/Desktop/EchoServer/include/ConnectionPool.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/mysql.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdbool.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/field_types.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/my_list.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/mysql_com.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/my_command.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/my_compress.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/mysql/udf_registration_types.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/mysql/client_plugin.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/mysql/plugin_auth_common.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/mysql_version.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/mysql_time.h \
+  /opt/homebrew/opt/mysql-client/include/mysql/errmsg.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/fcntl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/fcntl.h \

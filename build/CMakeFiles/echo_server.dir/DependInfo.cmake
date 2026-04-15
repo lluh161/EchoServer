@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hh/Desktop/EchoServer/src/Buffer.cpp" "CMakeFiles/echo_server.dir/src/Buffer.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/Buffer.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/Channel.cpp" "CMakeFiles/echo_server.dir/src/Channel.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/Channel.cpp.o.d"
+  "/Users/hh/Desktop/EchoServer/src/ConnectionPool.cpp" "CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/EchoServer.cpp" "CMakeFiles/echo_server.dir/src/EchoServer.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/EchoServer.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/Epoll.cpp" "CMakeFiles/echo_server.dir/src/Epoll.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/Epoll.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/EventLoop.cpp" "CMakeFiles/echo_server.dir/src/EventLoop.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/EventLoop.cpp.o.d"
@@ -20,6 +21,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hh/Desktop/EchoServer/src/Socket.cpp" "CMakeFiles/echo_server.dir/src/Socket.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/Socket.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/ThreadPool.cpp" "CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/Timer.cpp" "CMakeFiles/echo_server.dir/src/Timer.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/Timer.cpp.o.d"
+  "/Users/hh/Desktop/EchoServer/src/User.cpp" "CMakeFiles/echo_server.dir/src/User.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/User.cpp.o.d"
   "/Users/hh/Desktop/EchoServer/src/main.cpp" "CMakeFiles/echo_server.dir/src/main.cpp.o" "gcc" "CMakeFiles/echo_server.dir/src/main.cpp.o.d"
   )
 

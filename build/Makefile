@@ -177,6 +177,30 @@ src/Channel.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/Channel.cpp.s
 .PHONY : src/Channel.cpp.s
 
+src/ConnectionPool.o: src/ConnectionPool.cpp.o
+.PHONY : src/ConnectionPool.o
+
+# target to build an object file
+src/ConnectionPool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o
+.PHONY : src/ConnectionPool.cpp.o
+
+src/ConnectionPool.i: src/ConnectionPool.cpp.i
+.PHONY : src/ConnectionPool.i
+
+# target to preprocess a source file
+src/ConnectionPool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.i
+.PHONY : src/ConnectionPool.cpp.i
+
+src/ConnectionPool.s: src/ConnectionPool.cpp.s
+.PHONY : src/ConnectionPool.s
+
+# target to generate assembly for a file
+src/ConnectionPool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.s
+.PHONY : src/ConnectionPool.cpp.s
+
 src/EchoServer.o: src/EchoServer.cpp.o
 .PHONY : src/EchoServer.o
 
@@ -417,6 +441,30 @@ src/Timer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/Timer.cpp.s
 .PHONY : src/Timer.cpp.s
 
+src/User.o: src/User.cpp.o
+.PHONY : src/User.o
+
+# target to build an object file
+src/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/User.cpp.o
+.PHONY : src/User.cpp.o
+
+src/User.i: src/User.cpp.i
+.PHONY : src/User.i
+
+# target to preprocess a source file
+src/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/User.cpp.i
+.PHONY : src/User.cpp.i
+
+src/User.s: src/User.cpp.s
+.PHONY : src/User.s
+
+# target to generate assembly for a file
+src/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/echo_server.dir/build.make CMakeFiles/echo_server.dir/src/User.cpp.s
+.PHONY : src/User.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -456,6 +504,9 @@ help:
 	@echo "... src/Channel.o"
 	@echo "... src/Channel.i"
 	@echo "... src/Channel.s"
+	@echo "... src/ConnectionPool.o"
+	@echo "... src/ConnectionPool.i"
+	@echo "... src/ConnectionPool.s"
 	@echo "... src/EchoServer.o"
 	@echo "... src/EchoServer.i"
 	@echo "... src/EchoServer.s"
@@ -486,6 +537,9 @@ help:
 	@echo "... src/Timer.o"
 	@echo "... src/Timer.i"
 	@echo "... src/Timer.s"
+	@echo "... src/User.o"
+	@echo "... src/User.i"
+	@echo "... src/User.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

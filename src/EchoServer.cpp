@@ -3,8 +3,10 @@
 #include "Buffer.h"
 #include "HttpRequest.h"
 #include "Log.h"
+#include "User.h"
 #include "HttpResponse.h"
 #include "InetAddress.h"
+#include "ConnectionPool.h"
 #include <iostream>
 #include <functional>
 #include <unistd.h>
@@ -17,6 +19,7 @@
 #include <stdio.h>
 #include <memory>
 #include <stdlib.h>
+#include <algorithm>
 
 
 EchoServer::EchoServer(EventLoop* loop, const InetAddress& listenAddr)//初始化服务器
@@ -96,7 +99,19 @@ void EchoServer::handleNewConnection() {
     subLoop->updateChannel(clientChannel);
 }
 
-void EchoServer::handleMessage(int cfd, Buffer* buf){
+// 解析POST参数
+std::string getParam(const std::string& body, const std::string& key) {
+    size_t pos = body.find(key + "=");
+    if (pos == std::string::npos) return "";
+
+    pos += key.size() + 1;
+    size_t end = body.find('&', pos);
+    if (end == std::string::npos) end = body.size();
+
+    return body.substr(pos, end - pos);
+}
+
+void EchoServer::handleMessage(int cfd, Buffer* buf) {
     LOGD("开始处理客户端 fd=%d", cfd);
 
     //读取请求
@@ -109,33 +124,64 @@ void EchoServer::handleMessage(int cfd, Buffer* buf){
         return;
     }
 
-    //解析HTTP
+    // 解析HTTP
     HttpRequest req;
     req.parse(buffer, n);
-
-    //静态文件服务
     HttpResponse resp;
-
     std::string path = req.path();
     LOGI("请求路径：%s", path.c_str());
 
-    if (path == "/") path = "/index.html";
-    std::string filePath = "/Users/hh/Desktop/EchoServer/www" + path;
+    User service;
+    // ===================== 注册 API =====================
+    if (path == "/api/register" && req.method() == "POST") {
+        // 你的变量名：user, pwd
+        std::string user = getParam(req.body(), "username");
+        std::string pwd = getParam(req.body(), "password");
+        bool ok = service.reg(user, pwd);
 
-    if (!resp.loadFile(filePath)) {
-        LOGW("文件不存在：%s", filePath.c_str());
-        resp.setStatusCode(404);
-        resp.setBody("<h1>404 Not Found</h1>");
-        resp.setHeader("Content-Type", "text/html");
-    }else{
-        LOGD("成功读取文件：%s", filePath.c_str());
+        resp.setStatusCode(200);
+        resp.setHeader("Content-Type", "application/json");
+        if (ok) {
+            resp.setBody(R"({"code":0,"msg":"注册成功"})");
+        } else {
+            resp.setBody(R"({"code":-1,"msg":"注册失败，用户名已存在"})");
+        }
+    }
+    // ===================== 登录 API =====================
+    else if (path == "/api/login" && req.method() == "POST") {
+        std::string user = getParam(req.body(), "username");
+        std::string pwd = getParam(req.body(), "password");
+        bool ok = service.login(user, pwd);
+
+        resp.setStatusCode(200);
+        resp.setHeader("Content-Type", "application/json");
+        if (ok) {
+            resp.setBody(R"({"code":0,"msg":"登录成功"})");
+        } else {
+            resp.setBody(R"({"code":-1,"msg":"用户名或密码错误"})");
+        }
+    }
+    // ===================== 静态文件 =====================
+    else {
+        if (path == "/") path = "/index.html";
+        std::string filePath = "/Users/hh/Desktop/EchoServer/www" + path;
+
+        if (!resp.loadFile(filePath)) {
+            LOGW("文件不存在：%s", filePath.c_str());
+            resp.setStatusCode(404);
+            resp.setBody("<h1>404 Not Found</h1>");
+            resp.setHeader("Content-Type", "text/html");
+        } else {
+            LOGD("成功读取文件：%s", filePath.c_str());
+        }
     }
 
-    //发送响应
+
+    // 发送响应
     std::string response = resp.toString();
     send(cfd, response.data(), response.size(), MSG_NOSIGNAL);
 
-    //优雅关闭
+    // 优雅关闭
     shutdown(cfd, SHUT_WR);
     delete buf;
     LOGD("响应完成，关闭 fd=%d", cfd);

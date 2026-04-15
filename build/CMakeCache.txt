@@ -228,6 +228,9 @@ EchoServer_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 EchoServer_SOURCE_DIR:STATIC=/Users/hh/Desktop/EchoServer
 
+//Path to a library.
+MYSQL_LIB:FILEPATH=/opt/homebrew/lib/libmysqlclient.dylib
+
 
 ########################
 # INTERNAL cache entries
