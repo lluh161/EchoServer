@@ -1,19 +1,65 @@
 #include "Channel.h"
-#include <unistd.h>  
-#include <cstdio>   
-#include <cstring>   
 
-//双参数构造
-Channel::Channel(void* loop,int fd) :loop_(loop),fd_(fd),events_(0),revents_(0),inEpoll_(false) {(void)loop_;}
+// Linux平台
+#if defined(__linux__)
+#include "Epoll.h"
+#else
+// Mac平台：在这里定义，只在本文件有效，不会重复定义
+#define EPOLLIN  0x0001
+#define EPOLLOUT 0x0004
+#endif
 
-void Channel::setReadCallback(std::function<void()> cb){
-    readCallback_=std::move(cb);////当Channel检测到可读事件时，就调用这个存好的回调函数
+Channel::Channel(void* loop, int fd)
+    : loop_(loop), fd_(fd), events_(0), revents_(0), inEpoll_(false)
+{}
+
+void Channel::updateEvents()
+{
+#if defined(__linux__)
+    Epoll* epoll = (Epoll*)loop_;
+    epoll->updateChannel(this);
+#endif
 }
 
-void Channel::handleRead(){//又回调函数，则执行对应的读业务
-    if(readCallback_) readCallback_();
+void Channel::enableReading()
+{
+    events_ |= EPOLLIN;
+    updateEvents();
 }
 
-void Channel::enableReading(){//监听读事件+采用边缘触发式
-    events_=EPOLLIN|EPOLLET;
+void Channel::enableWriting()
+{
+    events_ |= EPOLLOUT;
+    updateEvents();
+
+    // Mac专用：立即触发写回调，让响应发出去
+#if defined(__APPLE__)
+    if(writeCallback) writeCallback();
+#endif
+}
+
+void Channel::disableWriting()
+{
+    events_ &= ~EPOLLOUT;
+    updateEvents();
+}
+
+void Channel::handleRead()
+{
+    if(readCallback) readCallback();
+}
+
+void Channel::handleWrite()
+{
+    if(writeCallback) writeCallback();
+}
+
+void Channel::setReadCallback(ReadCallback cb)
+{
+    readCallback = std::move(cb);
+}
+
+void Channel::setWriteCallback(WriteCallback cb)
+{
+    writeCallback = std::move(cb);
 }

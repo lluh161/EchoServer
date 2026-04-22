@@ -16,17 +16,8 @@ public:
     static const size_t kInitialSize = 1024;
 
     Buffer();
-    /**
-     * @brief 从文件描述符fd读取数据到缓冲区
-     * @param fd 套接字fd
-     * @return 读取到的字节数，-1表示出错
-     */
+
     ssize_t readFd(int fd);
-    /**
-     * @brief 将缓冲区数据写入文件描述符fd
-     * @param fd 套接字fd
-     * @return 写入的字节数，-1表示出错
-     */
     ssize_t writeFd(int fd);
 
     // ========== 缓冲区状态查询 ==========

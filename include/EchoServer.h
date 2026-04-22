@@ -19,6 +19,7 @@ public:
 private:
     void handleNewConnection();//处理新客户端连接
     void handleMessage(int cfd, Buffer* buf);//处理客户端消息
+    void handleWrite(Channel* channel,Buffer* writeBuf);//处理发送数据
 
     EventLoop* loop_;//主Reactor：只负责监听新连接
     std::unique_ptr<Socket> socket_;//服务端监听套接字
@@ -28,4 +29,6 @@ private:
     std::vector<std::unique_ptr<EventLoop>> subLoops_;//子Reactor：处理客户端IO
     std::vector<std::unique_ptr<Channel>> clientChannels_;//管理所有客户端连接通道
     std::vector<std::unique_ptr<Buffer>> clientBuffers_;//管理所有客户端数据缓冲区
+    std::vector<std::unique_ptr<Buffer>> clientWriteBuffers_;//每个客户端专属写Buffer
+
 };

@@ -77,22 +77,28 @@ void EchoServer::handleNewConnection() {
     static int next = 0;
     EventLoop* subLoop = subLoops_[next++ % subLoops_.size()].get();
 
-    // ===================== 最简单定时器：10秒超时关闭 =====================
-    // 只做一件事：连接建立 10 秒后关闭，不刷新、不传递、不报错
+    //连接建立 10 秒后关闭，不刷新、不传递、不报错
     subLoop->runAfter(10000, [=]() {
         LOGW("连接超时关闭 fd=%d", cfd);
         close(cfd);
     });
-    // ====================================================================
-
+    
     //创建客户端channel
     Channel* clientChannel = new Channel(subLoop, cfd);
 
-    // 完全不改变你原有代码！
-    clientChannel->setReadCallback([this, cfd]() {
-        Buffer* buf = new Buffer();
-        handleMessage(cfd, buf);
-    });
+    //创建读Buffer
+    clientBuffers_.push_back(std::make_unique<Buffer>());
+    Buffer* readBuf = clientBuffers_.back().get();
+    //创建写Buffer
+    clientWriteBuffers_.push_back(std::make_unique<Buffer>());
+    Buffer* writeBuf = clientWriteBuffers_.back().get();
+
+
+    //收到数据就调用handleMessage，把永久绑定的Buffer传进去
+    clientChannel->setReadCallback(std::bind(&EchoServer::handleMessage, this, cfd, readBuf));
+
+    //开启读事件监听（ET边缘触发）
+    clientChannel->enableReading();
 
     //注册读事件
     clientChannel->enableReading();
@@ -115,26 +121,27 @@ void EchoServer::handleMessage(int cfd, Buffer* buf) {
     LOGD("开始处理客户端 fd=%d", cfd);
 
     //读取请求
-    char buffer[4096];
-    ssize_t n = read(cfd, buffer, sizeof(buffer));
-    if (n <= 0) {
+    ssize_t n = buf->readFd(cfd);
+    if(n<=0){
         LOGW("客户端关闭连接 fd=%d", cfd);
         close(cfd);
-        delete buf;
         return;
     }
 
     // 解析HTTP
     HttpRequest req;
-    req.parse(buffer, n);
+    req.parse(buf->peek(), buf->readableBytes());
+
+    buf->retrieve(n);
+
     HttpResponse resp;
     std::string path = req.path();
     LOGI("请求路径：%s", path.c_str());
 
     User service;
-    // ===================== 注册 API =====================
+    //注册 API
     if (path == "/api/register" && req.method() == "POST") {
-        // 你的变量名：user, pwd
+        // 变量名：user, pwd
         std::string user = getParam(req.body(), "username");
         std::string pwd = getParam(req.body(), "password");
         bool ok = service.reg(user, pwd);
@@ -147,7 +154,7 @@ void EchoServer::handleMessage(int cfd, Buffer* buf) {
             resp.setBody(R"({"code":-1,"msg":"注册失败，用户名已存在"})");
         }
     }
-    // ===================== 登录 API =====================
+    //登录 API
     else if (path == "/api/login" && req.method() == "POST") {
         std::string user = getParam(req.body(), "username");
         std::string pwd = getParam(req.body(), "password");
@@ -161,7 +168,7 @@ void EchoServer::handleMessage(int cfd, Buffer* buf) {
             resp.setBody(R"({"code":-1,"msg":"用户名或密码错误"})");
         }
     }
-    // ===================== 静态文件 =====================
+    //静态文件
     else {
         if (path == "/") path = "/index.html";
         std::string filePath = "/Users/hh/Desktop/EchoServer/www" + path;
@@ -176,14 +183,40 @@ void EchoServer::handleMessage(int cfd, Buffer* buf) {
         }
     }
 
-
-    // 发送响应
+    //双平台完美兼容
+    #if defined(__linux__)
+    //Linux：保留异步Buffer+Channel+Epoll高性能逻辑！一行不动！
+    Buffer* writeBuf = clientWriteBuffers_.back().get();
+    writeBuf->append(resp.toString().data(), resp.toString().size());
+    Channel* clientChannel = clientChannels_.back().get();
+    clientChannel->setWriteCallback(std::bind(&EchoServer::handleWrite, this, clientChannel, writeBuf));
+    clientChannel->enableWriting();
+    #else
+    // Mac：同步
     std::string response = resp.toString();
     send(cfd, response.data(), response.size(), MSG_NOSIGNAL);
-
-    // 优雅关闭
     shutdown(cfd, SHUT_WR);
-    delete buf;
-    LOGD("响应完成，关闭 fd=%d", cfd);
     close(cfd);
+    #endif
+}
+
+//写事件回调
+void EchoServer::handleWrite(Channel* channel, Buffer* writeBuf) {
+    // 从Buffer向fd发送数据，非阻塞发送
+    ssize_t n = writeBuf->writeFd(channel->getFd());
+    if(n > 0) {
+        // 数据全部发送完毕
+        if(writeBuf->readableBytes() == 0) {
+            //取消Epoll可写事件监听
+            channel->disableWriting();
+            //优雅关闭写端、释放资源、关闭fd
+            shutdown(channel->getFd(), SHUT_WR);
+            LOGD("响应全部发送完成, 关闭fd=%d", channel->getFd());
+            close(channel->getFd());
+        }
+    } else if(errno != EAGAIN && errno != EWOULDBLOCK) {
+        //发送出错，直接关闭连接
+        LOGD("fd=%d 发送错误，关闭连接", channel->getFd());
+        close(channel->getFd());
+    }
 }
