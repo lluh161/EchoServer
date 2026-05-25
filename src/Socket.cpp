@@ -18,6 +18,10 @@ void Socket::bind(const InetAddress& addr){//绑定端口
 }
 
 bool Socket::listen(int backlog){//开启监听
+    int opt = 1;
+    setsockopt(fd_, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
+    backlog = 65535;  // 强制把等待队列设为 65535，解决压测连接报错
+
     return ::listen(fd_,backlog)!=-1;//调用系统listen，返回是否成功
 }
 

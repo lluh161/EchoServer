@@ -4,9 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/hh/Desktop/EchoServer/include -I/opt/homebrew/opt/mysql-client/include
+CXX_INCLUDES = -I/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/include -I/opt/homebrew/opt/mysql-client/include
 
-CXX_FLAGSarm64 = -std=c++17 -arch arm64
+CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 
-CXX_FLAGS = -std=c++17 -arch arm64
+CXX_FLAGS = -std=gnu++17 -arch arm64
 

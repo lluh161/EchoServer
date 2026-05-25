@@ -1,6 +1,6 @@
 CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o: \
-  /Users/hh/Desktop/EchoServer/src/ConnectionPool.cpp \
-  /Users/hh/Desktop/EchoServer/include/ConnectionPool.h \
+  /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ConnectionPool.cpp \
+  /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/include/ConnectionPool.h \
   /opt/homebrew/opt/mysql-client/include/mysql/mysql.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \

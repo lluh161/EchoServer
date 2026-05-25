@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hh/Desktop/EchoServer
+CMAKE_SOURCE_DIR = /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hh/Desktop/EchoServer/build
+CMAKE_BINARY_DIR = /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hh/Desktop/EchoServer/build/CMakeFiles /Users/hh/Desktop/EchoServer/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hh/Desktop/EchoServer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

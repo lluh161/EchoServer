@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/hh/Desktop/EchoServer
+CMAKE_SOURCE_DIR = /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/hh/Desktop/EchoServer/build
+CMAKE_BINARY_DIR = /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/echo_server.dir/depend.make
@@ -73,214 +73,214 @@ CMakeFiles/echo_server.dir/codegen:
 .PHONY : CMakeFiles/echo_server.dir/codegen
 
 CMakeFiles/echo_server.dir/src/Buffer.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Buffer.cpp.o: /Users/hh/Desktop/EchoServer/src/Buffer.cpp
+CMakeFiles/echo_server.dir/src/Buffer.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Buffer.cpp
 CMakeFiles/echo_server.dir/src/Buffer.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/echo_server.dir/src/Buffer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Buffer.cpp.o -MF CMakeFiles/echo_server.dir/src/Buffer.cpp.o.d -o CMakeFiles/echo_server.dir/src/Buffer.cpp.o -c /Users/hh/Desktop/EchoServer/src/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/echo_server.dir/src/Buffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Buffer.cpp.o -MF CMakeFiles/echo_server.dir/src/Buffer.cpp.o.d -o CMakeFiles/echo_server.dir/src/Buffer.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Buffer.cpp
 
 CMakeFiles/echo_server.dir/src/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Buffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Buffer.cpp > CMakeFiles/echo_server.dir/src/Buffer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Buffer.cpp > CMakeFiles/echo_server.dir/src/Buffer.cpp.i
 
 CMakeFiles/echo_server.dir/src/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Buffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Buffer.cpp -o CMakeFiles/echo_server.dir/src/Buffer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Buffer.cpp -o CMakeFiles/echo_server.dir/src/Buffer.cpp.s
 
 CMakeFiles/echo_server.dir/src/Channel.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Channel.cpp.o: /Users/hh/Desktop/EchoServer/src/Channel.cpp
+CMakeFiles/echo_server.dir/src/Channel.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Channel.cpp
 CMakeFiles/echo_server.dir/src/Channel.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/echo_server.dir/src/Channel.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Channel.cpp.o -MF CMakeFiles/echo_server.dir/src/Channel.cpp.o.d -o CMakeFiles/echo_server.dir/src/Channel.cpp.o -c /Users/hh/Desktop/EchoServer/src/Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/echo_server.dir/src/Channel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Channel.cpp.o -MF CMakeFiles/echo_server.dir/src/Channel.cpp.o.d -o CMakeFiles/echo_server.dir/src/Channel.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Channel.cpp
 
 CMakeFiles/echo_server.dir/src/Channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Channel.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Channel.cpp > CMakeFiles/echo_server.dir/src/Channel.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Channel.cpp > CMakeFiles/echo_server.dir/src/Channel.cpp.i
 
 CMakeFiles/echo_server.dir/src/Channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Channel.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Channel.cpp -o CMakeFiles/echo_server.dir/src/Channel.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Channel.cpp -o CMakeFiles/echo_server.dir/src/Channel.cpp.s
 
 CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o: /Users/hh/Desktop/EchoServer/src/ConnectionPool.cpp
+CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ConnectionPool.cpp
 CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o -MF CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o.d -o CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o -c /Users/hh/Desktop/EchoServer/src/ConnectionPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o -MF CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o.d -o CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ConnectionPool.cpp
 
 CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/ConnectionPool.cpp > CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ConnectionPool.cpp > CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.i
 
 CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/ConnectionPool.cpp -o CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ConnectionPool.cpp -o CMakeFiles/echo_server.dir/src/ConnectionPool.cpp.s
 
 CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: /Users/hh/Desktop/EchoServer/src/EchoServer.cpp
+CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/EchoServer.cpp
 CMakeFiles/echo_server.dir/src/EchoServer.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/echo_server.dir/src/EchoServer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/EchoServer.cpp.o -MF CMakeFiles/echo_server.dir/src/EchoServer.cpp.o.d -o CMakeFiles/echo_server.dir/src/EchoServer.cpp.o -c /Users/hh/Desktop/EchoServer/src/EchoServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/echo_server.dir/src/EchoServer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/EchoServer.cpp.o -MF CMakeFiles/echo_server.dir/src/EchoServer.cpp.o.d -o CMakeFiles/echo_server.dir/src/EchoServer.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/EchoServer.cpp
 
 CMakeFiles/echo_server.dir/src/EchoServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/EchoServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/EchoServer.cpp > CMakeFiles/echo_server.dir/src/EchoServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/EchoServer.cpp > CMakeFiles/echo_server.dir/src/EchoServer.cpp.i
 
 CMakeFiles/echo_server.dir/src/EchoServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/EchoServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/EchoServer.cpp -o CMakeFiles/echo_server.dir/src/EchoServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/EchoServer.cpp -o CMakeFiles/echo_server.dir/src/EchoServer.cpp.s
 
 CMakeFiles/echo_server.dir/src/Epoll.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Epoll.cpp.o: /Users/hh/Desktop/EchoServer/src/Epoll.cpp
+CMakeFiles/echo_server.dir/src/Epoll.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Epoll.cpp
 CMakeFiles/echo_server.dir/src/Epoll.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/echo_server.dir/src/Epoll.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Epoll.cpp.o -MF CMakeFiles/echo_server.dir/src/Epoll.cpp.o.d -o CMakeFiles/echo_server.dir/src/Epoll.cpp.o -c /Users/hh/Desktop/EchoServer/src/Epoll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/echo_server.dir/src/Epoll.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Epoll.cpp.o -MF CMakeFiles/echo_server.dir/src/Epoll.cpp.o.d -o CMakeFiles/echo_server.dir/src/Epoll.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Epoll.cpp
 
 CMakeFiles/echo_server.dir/src/Epoll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Epoll.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Epoll.cpp > CMakeFiles/echo_server.dir/src/Epoll.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Epoll.cpp > CMakeFiles/echo_server.dir/src/Epoll.cpp.i
 
 CMakeFiles/echo_server.dir/src/Epoll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Epoll.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Epoll.cpp -o CMakeFiles/echo_server.dir/src/Epoll.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Epoll.cpp -o CMakeFiles/echo_server.dir/src/Epoll.cpp.s
 
 CMakeFiles/echo_server.dir/src/EventLoop.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/EventLoop.cpp.o: /Users/hh/Desktop/EchoServer/src/EventLoop.cpp
+CMakeFiles/echo_server.dir/src/EventLoop.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/EventLoop.cpp
 CMakeFiles/echo_server.dir/src/EventLoop.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/echo_server.dir/src/EventLoop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/EventLoop.cpp.o -MF CMakeFiles/echo_server.dir/src/EventLoop.cpp.o.d -o CMakeFiles/echo_server.dir/src/EventLoop.cpp.o -c /Users/hh/Desktop/EchoServer/src/EventLoop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/echo_server.dir/src/EventLoop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/EventLoop.cpp.o -MF CMakeFiles/echo_server.dir/src/EventLoop.cpp.o.d -o CMakeFiles/echo_server.dir/src/EventLoop.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/EventLoop.cpp
 
 CMakeFiles/echo_server.dir/src/EventLoop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/EventLoop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/EventLoop.cpp > CMakeFiles/echo_server.dir/src/EventLoop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/EventLoop.cpp > CMakeFiles/echo_server.dir/src/EventLoop.cpp.i
 
 CMakeFiles/echo_server.dir/src/EventLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/EventLoop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/EventLoop.cpp -o CMakeFiles/echo_server.dir/src/EventLoop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/EventLoop.cpp -o CMakeFiles/echo_server.dir/src/EventLoop.cpp.s
 
 CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o: /Users/hh/Desktop/EchoServer/src/HttpRequest.cpp
+CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/HttpRequest.cpp
 CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o -MF CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o.d -o CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o -c /Users/hh/Desktop/EchoServer/src/HttpRequest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o -MF CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o.d -o CMakeFiles/echo_server.dir/src/HttpRequest.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/HttpRequest.cpp
 
 CMakeFiles/echo_server.dir/src/HttpRequest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/HttpRequest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/HttpRequest.cpp > CMakeFiles/echo_server.dir/src/HttpRequest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/HttpRequest.cpp > CMakeFiles/echo_server.dir/src/HttpRequest.cpp.i
 
 CMakeFiles/echo_server.dir/src/HttpRequest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/HttpRequest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/HttpRequest.cpp -o CMakeFiles/echo_server.dir/src/HttpRequest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/HttpRequest.cpp -o CMakeFiles/echo_server.dir/src/HttpRequest.cpp.s
 
 CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o: /Users/hh/Desktop/EchoServer/src/HttpResponse.cpp
+CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/HttpResponse.cpp
 CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o -MF CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o.d -o CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o -c /Users/hh/Desktop/EchoServer/src/HttpResponse.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o -MF CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o.d -o CMakeFiles/echo_server.dir/src/HttpResponse.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/HttpResponse.cpp
 
 CMakeFiles/echo_server.dir/src/HttpResponse.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/HttpResponse.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/HttpResponse.cpp > CMakeFiles/echo_server.dir/src/HttpResponse.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/HttpResponse.cpp > CMakeFiles/echo_server.dir/src/HttpResponse.cpp.i
 
 CMakeFiles/echo_server.dir/src/HttpResponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/HttpResponse.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/HttpResponse.cpp -o CMakeFiles/echo_server.dir/src/HttpResponse.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/HttpResponse.cpp -o CMakeFiles/echo_server.dir/src/HttpResponse.cpp.s
 
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: /Users/hh/Desktop/EchoServer/src/InetAddress.cpp
+CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/InetAddress.cpp
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/echo_server.dir/src/InetAddress.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/InetAddress.cpp.o -MF CMakeFiles/echo_server.dir/src/InetAddress.cpp.o.d -o CMakeFiles/echo_server.dir/src/InetAddress.cpp.o -c /Users/hh/Desktop/EchoServer/src/InetAddress.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/echo_server.dir/src/InetAddress.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/InetAddress.cpp.o -MF CMakeFiles/echo_server.dir/src/InetAddress.cpp.o.d -o CMakeFiles/echo_server.dir/src/InetAddress.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/InetAddress.cpp
 
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/InetAddress.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/InetAddress.cpp > CMakeFiles/echo_server.dir/src/InetAddress.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/InetAddress.cpp > CMakeFiles/echo_server.dir/src/InetAddress.cpp.i
 
 CMakeFiles/echo_server.dir/src/InetAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/InetAddress.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/InetAddress.cpp -o CMakeFiles/echo_server.dir/src/InetAddress.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/InetAddress.cpp -o CMakeFiles/echo_server.dir/src/InetAddress.cpp.s
 
 CMakeFiles/echo_server.dir/src/Log.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Log.cpp.o: /Users/hh/Desktop/EchoServer/src/Log.cpp
+CMakeFiles/echo_server.dir/src/Log.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Log.cpp
 CMakeFiles/echo_server.dir/src/Log.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/echo_server.dir/src/Log.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Log.cpp.o -MF CMakeFiles/echo_server.dir/src/Log.cpp.o.d -o CMakeFiles/echo_server.dir/src/Log.cpp.o -c /Users/hh/Desktop/EchoServer/src/Log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/echo_server.dir/src/Log.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Log.cpp.o -MF CMakeFiles/echo_server.dir/src/Log.cpp.o.d -o CMakeFiles/echo_server.dir/src/Log.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Log.cpp
 
 CMakeFiles/echo_server.dir/src/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Log.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Log.cpp > CMakeFiles/echo_server.dir/src/Log.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Log.cpp > CMakeFiles/echo_server.dir/src/Log.cpp.i
 
 CMakeFiles/echo_server.dir/src/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Log.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Log.cpp -o CMakeFiles/echo_server.dir/src/Log.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Log.cpp -o CMakeFiles/echo_server.dir/src/Log.cpp.s
 
 CMakeFiles/echo_server.dir/src/Socket.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Socket.cpp.o: /Users/hh/Desktop/EchoServer/src/Socket.cpp
+CMakeFiles/echo_server.dir/src/Socket.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Socket.cpp
 CMakeFiles/echo_server.dir/src/Socket.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/echo_server.dir/src/Socket.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Socket.cpp.o -MF CMakeFiles/echo_server.dir/src/Socket.cpp.o.d -o CMakeFiles/echo_server.dir/src/Socket.cpp.o -c /Users/hh/Desktop/EchoServer/src/Socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/echo_server.dir/src/Socket.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Socket.cpp.o -MF CMakeFiles/echo_server.dir/src/Socket.cpp.o.d -o CMakeFiles/echo_server.dir/src/Socket.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Socket.cpp
 
 CMakeFiles/echo_server.dir/src/Socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Socket.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Socket.cpp > CMakeFiles/echo_server.dir/src/Socket.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Socket.cpp > CMakeFiles/echo_server.dir/src/Socket.cpp.i
 
 CMakeFiles/echo_server.dir/src/Socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Socket.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Socket.cpp -o CMakeFiles/echo_server.dir/src/Socket.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Socket.cpp -o CMakeFiles/echo_server.dir/src/Socket.cpp.s
 
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp
+CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ThreadPool.cpp
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o -MF CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o.d -o CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o -c /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o -MF CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o.d -o CMakeFiles/echo_server.dir/src/ThreadPool.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ThreadPool.cpp
 
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/ThreadPool.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp > CMakeFiles/echo_server.dir/src/ThreadPool.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ThreadPool.cpp > CMakeFiles/echo_server.dir/src/ThreadPool.cpp.i
 
 CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/ThreadPool.cpp -o CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/ThreadPool.cpp -o CMakeFiles/echo_server.dir/src/ThreadPool.cpp.s
 
 CMakeFiles/echo_server.dir/src/Timer.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/Timer.cpp.o: /Users/hh/Desktop/EchoServer/src/Timer.cpp
+CMakeFiles/echo_server.dir/src/Timer.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Timer.cpp
 CMakeFiles/echo_server.dir/src/Timer.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/echo_server.dir/src/Timer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Timer.cpp.o -MF CMakeFiles/echo_server.dir/src/Timer.cpp.o.d -o CMakeFiles/echo_server.dir/src/Timer.cpp.o -c /Users/hh/Desktop/EchoServer/src/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/echo_server.dir/src/Timer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/Timer.cpp.o -MF CMakeFiles/echo_server.dir/src/Timer.cpp.o.d -o CMakeFiles/echo_server.dir/src/Timer.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Timer.cpp
 
 CMakeFiles/echo_server.dir/src/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/Timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/Timer.cpp > CMakeFiles/echo_server.dir/src/Timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Timer.cpp > CMakeFiles/echo_server.dir/src/Timer.cpp.i
 
 CMakeFiles/echo_server.dir/src/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/Timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/Timer.cpp -o CMakeFiles/echo_server.dir/src/Timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Timer.cpp -o CMakeFiles/echo_server.dir/src/Timer.cpp.s
 
 CMakeFiles/echo_server.dir/src/User.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/User.cpp.o: /Users/hh/Desktop/EchoServer/src/User.cpp
+CMakeFiles/echo_server.dir/src/User.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/User.cpp
 CMakeFiles/echo_server.dir/src/User.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/echo_server.dir/src/User.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/User.cpp.o -MF CMakeFiles/echo_server.dir/src/User.cpp.o.d -o CMakeFiles/echo_server.dir/src/User.cpp.o -c /Users/hh/Desktop/EchoServer/src/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/echo_server.dir/src/User.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/User.cpp.o -MF CMakeFiles/echo_server.dir/src/User.cpp.o.d -o CMakeFiles/echo_server.dir/src/User.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/User.cpp
 
 CMakeFiles/echo_server.dir/src/User.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/User.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/User.cpp > CMakeFiles/echo_server.dir/src/User.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/User.cpp > CMakeFiles/echo_server.dir/src/User.cpp.i
 
 CMakeFiles/echo_server.dir/src/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/User.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/User.cpp -o CMakeFiles/echo_server.dir/src/User.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/User.cpp -o CMakeFiles/echo_server.dir/src/User.cpp.s
 
 CMakeFiles/echo_server.dir/src/main.cpp.o: CMakeFiles/echo_server.dir/flags.make
-CMakeFiles/echo_server.dir/src/main.cpp.o: /Users/hh/Desktop/EchoServer/src/main.cpp
+CMakeFiles/echo_server.dir/src/main.cpp.o: /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/main.cpp
 CMakeFiles/echo_server.dir/src/main.cpp.o: CMakeFiles/echo_server.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/echo_server.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/main.cpp.o -MF CMakeFiles/echo_server.dir/src/main.cpp.o.d -o CMakeFiles/echo_server.dir/src/main.cpp.o -c /Users/hh/Desktop/EchoServer/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/echo_server.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/echo_server.dir/src/main.cpp.o -MF CMakeFiles/echo_server.dir/src/main.cpp.o.d -o CMakeFiles/echo_server.dir/src/main.cpp.o -c /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/main.cpp
 
 CMakeFiles/echo_server.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/echo_server.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/EchoServer/src/main.cpp > CMakeFiles/echo_server.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/main.cpp > CMakeFiles/echo_server.dir/src/main.cpp.i
 
 CMakeFiles/echo_server.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/echo_server.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/EchoServer/src/main.cpp -o CMakeFiles/echo_server.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/main.cpp -o CMakeFiles/echo_server.dir/src/main.cpp.s
 
 # Object files for target echo_server
 echo_server_OBJECTS = \
@@ -321,7 +321,7 @@ echo_server: CMakeFiles/echo_server.dir/src/main.cpp.o
 echo_server: CMakeFiles/echo_server.dir/build.make
 echo_server: /opt/homebrew/lib/libmysqlclient.dylib
 echo_server: CMakeFiles/echo_server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable echo_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable echo_server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/echo_server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -333,6 +333,6 @@ CMakeFiles/echo_server.dir/clean:
 .PHONY : CMakeFiles/echo_server.dir/clean
 
 CMakeFiles/echo_server.dir/depend:
-	cd /Users/hh/Desktop/EchoServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hh/Desktop/EchoServer /Users/hh/Desktop/EchoServer /Users/hh/Desktop/EchoServer/build /Users/hh/Desktop/EchoServer/build /Users/hh/Desktop/EchoServer/build/CMakeFiles/echo_server.dir/DependInfo.cmake "--color=$(COLOR)" echo_server
+	cd /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/echo_server.dir/DependInfo.cmake "--color=$(COLOR)" echo_server
 .PHONY : CMakeFiles/echo_server.dir/depend
 

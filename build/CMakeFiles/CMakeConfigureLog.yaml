@@ -20,6 +20,9 @@ events:
     names:
       - "uname"
     candidate_directories:
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -33,12 +36,18 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/uname"
+      - "/opt/homebrew/opt/maven/bin/uname"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/uname"
       - "/opt/homebrew/bin/uname"
       - "/opt/homebrew/sbin/uname"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/uname"
@@ -48,6 +57,9 @@ events:
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -62,12 +74,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "message-v1"
     backtrace:
@@ -96,6 +111,9 @@ events:
       - "make"
       - "smake"
     candidate_directories:
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -109,12 +127,18 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/gmake"
+      - "/opt/homebrew/opt/maven/bin/gmake"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/gmake"
       - "/opt/homebrew/bin/gmake"
       - "/opt/homebrew/sbin/gmake"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/gmake"
@@ -128,11 +152,17 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/Applications/VMware Fusion.app/Contents/Public/gmake"
       - "/usr/local/go/bin/gmake"
       - "/Users/hh/.local/bin/gmake"
       - "/Users/hh/Downloads/kubo/gmake"
       - "/usr/local/mysql/bin/gmake"
       - "/usr/local/mysql/support-files/gmake"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/gmake"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/gmake"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/make"
+      - "/opt/homebrew/opt/maven/bin/make"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/make"
       - "/opt/homebrew/bin/make"
       - "/opt/homebrew/sbin/make"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/make"
@@ -142,6 +172,9 @@ events:
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -156,12 +189,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -188,6 +224,9 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -201,12 +240,18 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/cc"
+      - "/opt/homebrew/opt/maven/bin/cc"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/cc"
       - "/opt/homebrew/bin/cc"
       - "/opt/homebrew/sbin/cc"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/cc"
@@ -216,6 +261,9 @@ events:
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -230,12 +278,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -263,6 +314,9 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -277,12 +331,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "message-v1"
     backtrace:
@@ -303,7 +360,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is AppleClang, found in:
-        /Users/hh/Desktop/EchoServer/build/CMakeFiles/4.3.1/CompilerIdC/a.out
+        /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/4.3.1/CompilerIdC/a.out
       
   -
     kind: "message-v1"
@@ -358,6 +415,9 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -370,14 +430,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -392,12 +458,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -419,6 +488,9 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -431,14 +503,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -453,12 +531,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -480,6 +561,9 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -492,14 +576,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -514,12 +604,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -541,6 +634,9 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -553,14 +649,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -575,12 +677,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -602,6 +707,9 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -614,14 +722,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -636,12 +750,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -663,6 +780,9 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -675,14 +795,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -697,12 +823,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -724,6 +853,9 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -736,13 +868,19 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
       - "/usr/bin/objcopy"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/objcopy"
+      - "/opt/homebrew/opt/maven/bin/objcopy"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/objcopy"
       - "/opt/homebrew/bin/objcopy"
       - "/opt/homebrew/sbin/objcopy"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/objcopy"
@@ -755,14 +893,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/Applications/VMware Fusion.app/Contents/Public/objcopy"
       - "/usr/local/go/bin/objcopy"
       - "/Users/hh/.local/bin/objcopy"
       - "/Users/hh/Downloads/kubo/objcopy"
       - "/usr/local/mysql/bin/objcopy"
       - "/usr/local/mysql/support-files/objcopy"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/objcopy"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/objcopy"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -777,12 +921,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -804,6 +951,9 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -816,13 +966,19 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
       - "/usr/bin/readelf"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/readelf"
+      - "/opt/homebrew/opt/maven/bin/readelf"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/readelf"
       - "/opt/homebrew/bin/readelf"
       - "/opt/homebrew/sbin/readelf"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/readelf"
@@ -835,14 +991,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/Applications/VMware Fusion.app/Contents/Public/readelf"
       - "/usr/local/go/bin/readelf"
       - "/Users/hh/.local/bin/readelf"
       - "/Users/hh/Downloads/kubo/readelf"
       - "/usr/local/mysql/bin/readelf"
       - "/usr/local/mysql/support-files/readelf"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/readelf"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/readelf"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -857,12 +1019,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -884,6 +1049,9 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -896,13 +1064,19 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
       - "/usr/bin/dlltool"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/dlltool"
+      - "/opt/homebrew/opt/maven/bin/dlltool"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/dlltool"
       - "/opt/homebrew/bin/dlltool"
       - "/opt/homebrew/sbin/dlltool"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/dlltool"
@@ -915,14 +1089,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/Applications/VMware Fusion.app/Contents/Public/dlltool"
       - "/usr/local/go/bin/dlltool"
       - "/Users/hh/.local/bin/dlltool"
       - "/Users/hh/Downloads/kubo/dlltool"
       - "/usr/local/mysql/bin/dlltool"
       - "/usr/local/mysql/support-files/dlltool"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/dlltool"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/dlltool"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -937,12 +1117,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -964,6 +1147,9 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -976,13 +1162,19 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
       - "/usr/bin/addr2line"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/addr2line"
+      - "/opt/homebrew/opt/maven/bin/addr2line"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/addr2line"
       - "/opt/homebrew/bin/addr2line"
       - "/opt/homebrew/sbin/addr2line"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/addr2line"
@@ -995,14 +1187,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/Applications/VMware Fusion.app/Contents/Public/addr2line"
       - "/usr/local/go/bin/addr2line"
       - "/Users/hh/.local/bin/addr2line"
       - "/Users/hh/Downloads/kubo/addr2line"
       - "/usr/local/mysql/bin/addr2line"
       - "/usr/local/mysql/support-files/addr2line"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/addr2line"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/addr2line"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1017,12 +1215,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -1044,6 +1245,9 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -1056,13 +1260,19 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
       - "/usr/bin/tapi"
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/tapi"
+      - "/opt/homebrew/opt/maven/bin/tapi"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/tapi"
       - "/opt/homebrew/bin/tapi"
       - "/opt/homebrew/sbin/tapi"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/tapi"
@@ -1075,14 +1285,20 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/Applications/VMware Fusion.app/Contents/Public/tapi"
       - "/usr/local/go/bin/tapi"
       - "/Users/hh/.local/bin/tapi"
       - "/Users/hh/Downloads/kubo/tapi"
       - "/usr/local/mysql/bin/tapi"
       - "/usr/local/mysql/support-files/tapi"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/tapi"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/tapi"
     found: false
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1097,12 +1313,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -1133,6 +1352,9 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1147,12 +1369,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -1180,6 +1405,9 @@ events:
     found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1194,12 +1422,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
   -
     kind: "message-v1"
     backtrace:
@@ -1220,7 +1451,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is AppleClang, found in:
-        /Users/hh/Desktop/EchoServer/build/CMakeFiles/4.3.1/CompilerIdCXX/a.out
+        /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/4.3.1/CompilerIdCXX/a.out
       
   -
     kind: "message-v1"
@@ -1274,6 +1505,9 @@ events:
     names:
       - "install_name_tool"
     candidate_directories:
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/"
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -1287,12 +1521,18 @@ events:
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
       - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
       - "/usr/local/mysql/bin/"
       - "/usr/local/mysql/support-files/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin/"
+      - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin/"
     searched_directories:
+      - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin/install_name_tool"
+      - "/opt/homebrew/opt/maven/bin/install_name_tool"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/install_name_tool"
       - "/opt/homebrew/bin/install_name_tool"
       - "/opt/homebrew/sbin/install_name_tool"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/install_name_tool"
@@ -1302,6 +1542,9 @@ events:
     found: "/usr/bin/install_name_tool"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1316,12 +1559,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
@@ -1332,8 +1578,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-zxJSnq"
-      binary: "/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-zxJSnq"
+      source: "/Users/hh/Desktop/\u5b9e\u4e60/\u5927\u9879\u76ee/C++\u9ad8\u5e76\u53d1HTTP\u670d\u52a1\u5668/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-WkjqQK"
+      binary: "/Users/hh/Desktop/\u5b9e\u4e60/\u5927\u9879\u76ee/C++\u9ad8\u5e76\u53d1HTTP\u670d\u52a1\u5668/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-WkjqQK"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1346,18 +1592,18 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-zxJSnq'
+        Change Dir: '/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-WkjqQK'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_302d8/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_302d8.dir/build.make CMakeFiles/cmTC_302d8.dir/build
-        Building C object CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c20ba/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c20ba.dir/build.make CMakeFiles/cmTC_c20ba.dir/build
+        Building C object CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: arm64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-zxJSnq -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-zxJSnq -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-WkjqQK -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-WkjqQK -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
         clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.3.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1369,13 +1615,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking C executable cmTC_302d8
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_302d8.dir/link.txt --verbose=1
+        Linking C executable cmTC_c20ba
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c20ba.dir/link.txt --verbose=1
         Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: arm64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_302d8 -L/usr/local/lib -v CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_c20ba -L/usr/local/lib -v CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1053.12
         BUILD 15:45:29 Feb  3 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1387,7 +1633,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -o cmTC_302d8
+        /usr/bin/cc  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -o cmTC_c20ba
         
       exitCode: 0
   -
@@ -1429,18 +1675,18 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-zxJSnq']
+        ignore line: [Change Dir: '/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-WkjqQK']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_302d8/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_302d8.dir/build.make CMakeFiles/cmTC_302d8.dir/build]
-        ignore line: [Building C object CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c20ba/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c20ba.dir/build.make CMakeFiles/cmTC_c20ba.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
         ignore line: [Target: arm64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-zxJSnq -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-zxJSnq -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-WkjqQK -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-WkjqQK -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.3.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1452,13 +1698,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_302d8]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_302d8.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_c20ba]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c20ba.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
         ignore line: [Target: arm64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_302d8 -L/usr/local/lib -v CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_c20ba -L/usr/local/lib -v CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1473,10 +1719,10 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_302d8] ==> ignore
+          arg [cmTC_c20ba] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_302d8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_c20ba.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
         linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
@@ -1518,8 +1764,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-1rhL7z"
-      binary: "/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-1rhL7z"
+      source: "/Users/hh/Desktop/\u5b9e\u4e60/\u5927\u9879\u76ee/C++\u9ad8\u5e76\u53d1HTTP\u670d\u52a1\u5668/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-Lp2mYn"
+      binary: "/Users/hh/Desktop/\u5b9e\u4e60/\u5927\u9879\u76ee/C++\u9ad8\u5e76\u53d1HTTP\u670d\u52a1\u5668/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-Lp2mYn"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1533,18 +1779,18 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-1rhL7z'
+        Change Dir: '/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-Lp2mYn'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_628ef/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_628ef.dir/build.make CMakeFiles/cmTC_628ef.dir/build
-        Building CXX object CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6018d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6018d.dir/build.make CMakeFiles/cmTC_6018d.dir/build
+        Building CXX object CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: arm64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-1rhL7z -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-1rhL7z -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-Lp2mYn -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-Lp2mYn -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.3.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -1557,13 +1803,13 @@ events:
          /Library/Developer/CommandLineTools/usr/include
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_628ef
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_628ef.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_6018d
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6018d.dir/link.txt --verbose=1
         Apple clang version 15.0.0 (clang-1500.3.9.4)
         Target: arm64-apple-darwin23.3.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_628ef -L/usr/local/lib -v CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_6018d -L/usr/local/lib -v CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1053.12
         BUILD 15:45:29 Feb  3 2024
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -1575,7 +1821,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_628ef
+        /usr/bin/c++  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6018d
         
       exitCode: 0
   -
@@ -1619,18 +1865,18 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-1rhL7z']
+        ignore line: [Change Dir: '/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-Lp2mYn']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_628ef/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_628ef.dir/build.make CMakeFiles/cmTC_628ef.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6018d/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6018d.dir/build.make CMakeFiles/cmTC_6018d.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
         ignore line: [Target: arm64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-1rhL7z -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/hh/Desktop/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-1rhL7z -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-Lp2mYn -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/build/CMakeFiles/CMakeScratch/TryCompile-Lp2mYn -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target arm64-apple-darwin23.3.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1643,13 +1889,13 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/usr/include]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_628ef]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_628ef.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_6018d]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6018d.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
         ignore line: [Target: arm64-apple-darwin23.3.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_628ef -L/usr/local/lib -v CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o cmTC_6018d -L/usr/local/lib -v CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1664,10 +1910,10 @@ events:
           arg [-syslibroot] ==> ignore
           arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_628ef] ==> ignore
+          arg [cmTC_6018d] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_628ef.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_6018d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
@@ -1704,7 +1950,7 @@ events:
   -
     kind: "find-v1"
     backtrace:
-      - "CMakeLists.txt:26 (find_library)"
+      - "CMakeLists.txt:28 (find_library)"
     mode: "library"
     variable: "MYSQL_LIB"
     description: "Path to a library."
@@ -1719,6 +1965,8 @@ events:
     names:
       - "mysqlclient"
     candidate_directories:
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -1728,6 +1976,7 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
@@ -1747,6 +1996,8 @@ events:
       - "/System/Library/Frameworks/"
       - "/opt/homebrew/opt/mysql-client/lib/"
     searched_directories:
+      - "/opt/homebrew/opt/maven/bin/"
+      - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/"
       - "/opt/homebrew/bin/"
       - "/opt/homebrew/sbin/"
       - "/Library/Frameworks/Python.framework/Versions/3.10/bin/"
@@ -1756,6 +2007,7 @@ events:
       - "/bin/"
       - "/usr/sbin/"
       - "/sbin/"
+      - "/Applications/VMware Fusion.app/Contents/Public/"
       - "/usr/local/go/bin/"
       - "/Users/hh/.local/bin/"
       - "/Users/hh/Downloads/kubo/"
@@ -1766,6 +2018,9 @@ events:
     found: "/opt/homebrew/lib/libmysqlclient.dylib"
     search_context:
       ENV{PATH}:
+        - "/Users/hh/Documents/apache-tomcat-10.1.0-M15/bin"
+        - "/opt/homebrew/opt/maven/bin"
+        - "/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/bin"
         - "/opt/homebrew/sbin"
@@ -1780,12 +2035,15 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Applications/VMware Fusion.app/Contents/Public"
         - "/usr/local/go/bin"
         - "/Users/hh/.local/bin"
         - "/Users/hh/Downloads/kubo"
         - "/usr/local/mysql/bin"
         - "/usr/local/mysql/support-files"
         - "/Users/hh/.local/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/bin"
+        - "/Users/hh/Desktop/\u4f5c\u4e1a/\u5206\u5e03\u5f0f\u5b9e\u9a8c/\u5b9e\u9a8c\u73af\u5883/hadoop-3.1.0/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"

@@ -1,7 +1,7 @@
 CMakeFiles/echo_server.dir/src/Socket.cpp.o: \
-  /Users/hh/Desktop/EchoServer/src/Socket.cpp \
-  /Users/hh/Desktop/EchoServer/include/Socket.h \
-  /Users/hh/Desktop/EchoServer/include/InetAddress.h \
+  /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/src/Socket.cpp \
+  /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/include/Socket.h \
+  /Users/hh/Desktop/实习/大项目/C++高并发HTTP服务器/EchoServer/include/InetAddress.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/netinet/in.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdint.h \
